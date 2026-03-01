@@ -1,0 +1,80 @@
+body{
+    font-family: "Geist", sans-serif;
+    animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+    0% { background-color: rgba(210, 41, 46); }
+    15% { background-color: rgba(237, 131, 44); }
+    30% { background-color: rgba(248, 165, 44); }
+    45% { background-color: rgba(248, 165, 44); }
+    60% { background-color: rgba(237, 131, 44); }
+    75% { background-color: rgba(224, 87, 42); }
+    90% { background-color: rgba(210, 41, 46); }
+    100% { background-color: rgba(210, 41, 46); }
+}
+/* Github repository link */
+.GithubRepo{
+    width: 100%;
+    background: linear-gradient(to right, #ff6f00, #bd0000);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GithubRepo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.GithubRepo:hover {
+    background: linear-gradient(to right, #ff8120, #eb2626);
+}
+
+/* Menu / navbar */
+
+#navbar {
+    background: linear-gradient(to left,#ff7518,#fdee00);
+    padding: 10px 40px;
+    border-radius: 20px;
+    
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    max-height: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.links a:hover{
+    background-color: #e55c00;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.links a:active{
+    background-color: #ff944d;
+    border-radius: 5px;
+    font-size: 20px;
+}

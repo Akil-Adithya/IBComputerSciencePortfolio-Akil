@@ -1,0 +1,104 @@
+body{
+    font-family: "Fira Code", sans-serif;
+    animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+    0% { background-color: #2f1869;}
+    12.5% { background-color: #2f4685; }
+    30% { background-color: #2e7099; }
+    50% { background-color: #2dbfc5; }
+    80% { background-color: #2e7099; }
+    92.5% { background-color: #2f4685; }
+    100% { background-color: #2f1869;}
+}
+/* Github repository link */
+.GithubRepo{
+    width: 100%;
+    background: linear-gradient(to left, rgb(0,51,102), rgb(15,82,186));
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GithubRepo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Geist", sans-serif;
+    color: white;
+}
+.GithubRepo:hover {
+    background: linear-gradient(to left, rgb(0, 85, 170), rgb(20, 110, 245));
+}
+
+/* Menu / navbar */
+
+#navbar {
+    background: linear-gradient(to left,#0047ab,#1ca9c9);
+    padding: 10px 40px;
+    border-radius: 20px;
+    
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    max-height: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: "Geist", sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.links a:hover{
+    background-color: #003b8e;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.links a:active{
+    background-color: #5fa2ff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Title */
+
+h1{
+    text-align: center;
+    font-size: 70px; 
+    font-family: "Fira Code", sans-serif;
+    color : white;
+}
+
+/* Body Text */
+
+.container img{
+    float: right;
+    padding: 0px 50px 50px 50px;
+    border-radius: 150px;
+}
+.container p{
+    padding-top: 0px;
+    padding-left: 50px;
+    font-size: 20px;
+    color:rgb(183, 233, 255);
+}
