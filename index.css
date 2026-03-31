@@ -1,16 +1,8 @@
 body{
     font-family: "Geist", sans-serif;
-    animation: gradientBG 15s ease infinite;
-}
-@keyframes gradientBG {
-    0% { background-color: rgba(210, 41, 46); }
-    15% { background-color: rgba(237, 131, 44); }
-    30% { background-color: rgba(248, 165, 44); }
-    45% { background-color: rgba(248, 165, 44); }
-    60% { background-color: rgba(237, 131, 44); }
-    75% { background-color: rgba(224, 87, 42); }
-    90% { background-color: rgba(210, 41, 46); }
-    100% { background-color: rgba(210, 41, 46); }
+    background-color: #ffaa55;
+    margin: 0;
+    padding: 0;
 }
 /* Github repository link */
 .GithubRepo{
@@ -20,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .GithubRepo a{
     text-decoration: none;
@@ -34,9 +27,9 @@ body{
 
 #navbar {
     background: linear-gradient(to left,#ff7518,#fdee00);
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 20px;
-    
+    margin: 15px;
 }
 
 #menu {
@@ -77,4 +70,61 @@ body{
     background-color: #ff944d;
     border-radius: 5px;
     font-size: 20px;
+}
+
+.welcome{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcomeImage img{
+    border-radius: 15px;
+}
+
+.welcomeText p{
+    font-size: 80px;
+    padding-right: 100px;
+    text-align: right;
+    font-family: "Fira Code";
+    text-shadow: #ff0000 2px 0 20px;
+    color:#ffc8c6;
+}
+/* Footer */
+
+footer {
+    font-family: "Fira Code";
+    background-color: #1f2937;
+    padding: 10px;
+    height: 60px;
+    width: 98.9%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    gap: 50px;
+}
+
+.footer-links p,a,a:visited{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    color: rgb(255, 228, 118);
 }
