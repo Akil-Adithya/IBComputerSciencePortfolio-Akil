@@ -1,16 +1,10 @@
 body{
     font-family: "Fira Code", sans-serif;
-    animation: gradientBG 15s ease infinite;
+    background-color: #3769ae;
+    margin: 0;
+    padding: 0;
 }
-@keyframes gradientBG {
-    0% { background-color: #2f1869;}
-    12.5% { background-color: #2f4685; }
-    30% { background-color: #2e7099; }
-    50% { background-color: #2dbfc5; }
-    80% { background-color: #2e7099; }
-    92.5% { background-color: #2f4685; }
-    100% { background-color: #2f1869;}
-}
+
 /* Github repository link */
 .GithubRepo{
     width: 100%;
@@ -36,7 +30,7 @@ body{
     background: linear-gradient(to left,#0047ab,#1ca9c9);
     padding: 10px 40px;
     border-radius: 20px;
-    
+    margin: 15px;
 }
 
 #menu {
@@ -95,10 +89,49 @@ h1{
     float: right;
     padding: 0px 50px 50px 50px;
     border-radius: 150px;
+    height: 600px;
 }
 .container p{
     padding-top: 0px;
     padding-left: 50px;
     font-size: 20px;
     color:rgb(183, 233, 255);
+    height: 500px;
+}
+
+/* Footer */
+
+footer {
+    font-family: "Fira Code";
+    background-color: #1f2937;
+    padding: 10px;
+    height: 60px;
+    width: 98.9%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    gap: 50px;
+}
+
+.footer-links p,a,a:visited{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    color: rgb(255, 228, 118);
 }
